@@ -1,0 +1,206 @@
+# Ukrainian translations for PROJECT.
+# Copyright (C) 2019 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2019-06-02 13:04+0000\n"
+"PO-Revision-Date: 2019-06-02 13:09+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: uk\n"
+"Language-Team: uk <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: app.py:111 app.py:218
+msgid "Order pizza online"
+msgstr "Замовляй піцу онлайн"
+
+#: app.py:136
+msgid "Menu"
+msgstr "Меню"
+
+#: app.py:142
+msgid "Locations of Restaurant"
+msgstr "Ми на карті"
+
+#: app.py:148
+msgid "Contacts"
+msgstr "Контакти"
+
+#: app.py:160
+msgid "Please fill out Name field!"
+msgstr "Будь-ласка заповніть поле Ім'я!"
+
+#: app.py:164
+msgid "Please provide a valid phone number."
+msgstr "Будь-ласка введіть свій телефон"
+
+#: app.py:171
+msgid "Your order is empty"
+msgstr "Ваше замовлення порожнє"
+
+#: app.py:190
+msgid "Faulty order, please create new order"
+msgstr "Хибне замовлення, спробуйте створити нове замовлення"
+
+#: app.py:203
+msgid "Failed to finish your order"
+msgstr "Не вдалося виконати ваше замовлення"
+
+#: app.py:215
+msgid "Your order will be delivered shortly!"
+msgstr "Ваше замовлення буде доставлено в найближчий час!"
+
+#: app.py:216
+msgid "Trello Board with your Order"
+msgstr "Трело дошка з вашим замовленням"
+
+#: templates/contact.html:6
+msgid "Primary mailing address:"
+msgstr "Основна поштова адреса:"
+
+#: templates/index.html:58
+msgid "GIFT CARD"
+msgstr "ПОДАРУНКОВІ СЕРТИФІКАТИ"
+
+#: templates/index.html:60
+msgid "Gift them a Gift Card today"
+msgstr "Прекрасний подарунок на будь-яку нагоду"
+
+#: templates/index.html:65
+msgid "TUESDAY"
+msgstr "ВІВТОРОК"
+
+#: templates/index.html:65
+msgid "DISCOUNT"
+msgstr "ЗНИЖКА"
+
+#: templates/index.html:67
+msgid "There's no better day for pizza than Tuesday!"
+msgstr "Не буває вдалішого дня для піци!"
+
+#: templates/index.html:72
+msgid "RESTAURANT NOW SOCIAL"
+msgstr "МИ У СОЦІАЛЬНИХ МЕРЕЖАХ"
+
+#: templates/index.html:79
+msgid "Like us on Facebook and follow us on Twitter!"
+msgstr "Ставте нам лайк у Фейсбуці та слідкуйте в Твітері, все буде піца!"
+
+#: templates/index.html:87
+msgid "FRANCHISING"
+msgstr "ФРАНЧАЙЗИНГ"
+
+#: templates/index.html:88
+msgid "JOIN OUR TEAM"
+msgstr "РОБОТА ТА КАР'ЄРА"
+
+#: templates/index.html:89
+msgid "ABOUT US"
+msgstr "ПРО НАС"
+
+#: templates/index.html:90
+msgid "MENU PDF"
+msgstr "МЕНЮ PDF"
+
+#: templates/layout.html:38
+msgid "MENU"
+msgstr "МЕНЮ"
+
+#: templates/layout.html:39
+msgid "LOCATIONS"
+msgstr "МИ НА КАРТІ"
+
+#: templates/layout.html:40
+msgid "CONTACT"
+msgstr "КОНТАКТИ"
+
+#: templates/layout.html:42
+msgid "LANGUAGE"
+msgstr "МОВА"
+
+#: templates/layout.html:51 templates/layout.html:74 templates/menu.html:18
+#: templates/order.html:41
+msgid "UAH"
+msgstr "грн"
+
+#: templates/layout.html:59 templates/order.html:27
+msgid "My Order"
+msgstr "Моє замовлення"
+
+#: templates/layout.html:63 templates/order.html:30
+msgid "Meal"
+msgstr "Страва"
+
+#: templates/layout.html:64 templates/order.html:31
+msgid "Price"
+msgstr "Ціна"
+
+#: templates/layout.html:65 templates/order.html:32
+msgid "Amount"
+msgstr "Штук"
+
+#: templates/layout.html:66 templates/order.html:33
+msgid "Edit"
+msgstr "Правити"
+
+#: templates/layout.html:72
+msgid "TOTAL"
+msgstr "Загалом"
+
+#: templates/layout.html:77
+msgid "Finish order"
+msgstr "Оформити замовлення"
+
+#: templates/locations.html:13
+msgid "Our Restaurant location"
+msgstr "Ми на карті"
+
+#: templates/menu.html:6
+msgid "Pizza"
+msgstr "Піца"
+
+#: templates/menu.html:19
+msgid "Add"
+msgstr "Замовити"
+
+#: templates/order.html:4
+msgid "Ordering"
+msgstr "Замовлення"
+
+#: templates/order.html:9
+msgid "Name"
+msgstr "Моє ім'я"
+
+#: templates/order.html:12
+msgid "Phone"
+msgstr "Мій Телефон"
+
+#: templates/order.html:15
+msgid "Address"
+msgstr "Адреса"
+
+#: templates/order.html:16
+msgid "Please provide a valid address."
+msgstr "Будь-ласка заповніть поле адреса"
+
+#: templates/order.html:21
+msgid "Self-pick up"
+msgstr "Самовивіз"
+
+#: templates/order.html:23
+msgid "Order"
+msgstr "Моє замовлення"
+
+#: templates/order.html:39
+msgid "TOTAL:"
+msgstr "Загалом:"
+

@@ -1,0 +1,204 @@
+# Translations template for PROJECT.
+# Copyright (C) 2019 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2019-06-02 13:04+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: app.py:111 app.py:218
+msgid "Order pizza online"
+msgstr ""
+
+#: app.py:136
+msgid "Menu"
+msgstr ""
+
+#: app.py:142
+msgid "Locations of Restaurant"
+msgstr ""
+
+#: app.py:148
+msgid "Contacts"
+msgstr ""
+
+#: app.py:160
+msgid "Please fill out Name field!"
+msgstr ""
+
+#: app.py:164
+msgid "Please provide a valid phone number."
+msgstr ""
+
+#: app.py:171
+msgid "Your order is empty"
+msgstr ""
+
+#: app.py:190
+msgid "Faulty order, please create new order"
+msgstr ""
+
+#: app.py:203
+msgid "Failed to finish your order"
+msgstr ""
+
+#: app.py:215
+msgid "Your order will be delivered shortly!"
+msgstr ""
+
+#: app.py:216
+msgid "Trello Board with your Order"
+msgstr ""
+
+#: templates/contact.html:6
+msgid "Primary mailing address:"
+msgstr ""
+
+#: templates/index.html:58
+msgid "GIFT CARD"
+msgstr ""
+
+#: templates/index.html:60
+msgid "Gift them a Gift Card today"
+msgstr ""
+
+#: templates/index.html:65
+msgid "TUESDAY"
+msgstr ""
+
+#: templates/index.html:65
+msgid "DISCOUNT"
+msgstr ""
+
+#: templates/index.html:67
+msgid "There's no better day for pizza than Tuesday!"
+msgstr ""
+
+#: templates/index.html:72
+msgid "RESTAURANT NOW SOCIAL"
+msgstr ""
+
+#: templates/index.html:79
+msgid "Like us on Facebook and follow us on Twitter!"
+msgstr ""
+
+#: templates/index.html:87
+msgid "FRANCHISING"
+msgstr ""
+
+#: templates/index.html:88
+msgid "JOIN OUR TEAM"
+msgstr ""
+
+#: templates/index.html:89
+msgid "ABOUT US"
+msgstr ""
+
+#: templates/index.html:90
+msgid "MENU PDF"
+msgstr ""
+
+#: templates/layout.html:38
+msgid "MENU"
+msgstr ""
+
+#: templates/layout.html:39
+msgid "LOCATIONS"
+msgstr ""
+
+#: templates/layout.html:40
+msgid "CONTACT"
+msgstr ""
+
+#: templates/layout.html:42
+msgid "LANGUAGE"
+msgstr ""
+
+#: templates/layout.html:51 templates/layout.html:74 templates/menu.html:18
+#: templates/order.html:41
+msgid "UAH"
+msgstr ""
+
+#: templates/layout.html:59 templates/order.html:27
+msgid "My Order"
+msgstr ""
+
+#: templates/layout.html:63 templates/order.html:30
+msgid "Meal"
+msgstr ""
+
+#: templates/layout.html:64 templates/order.html:31
+msgid "Price"
+msgstr ""
+
+#: templates/layout.html:65 templates/order.html:32
+msgid "Amount"
+msgstr ""
+
+#: templates/layout.html:66 templates/order.html:33
+msgid "Edit"
+msgstr ""
+
+#: templates/layout.html:72
+msgid "TOTAL"
+msgstr ""
+
+#: templates/layout.html:77
+msgid "Finish order"
+msgstr ""
+
+#: templates/locations.html:13
+msgid "Our Restaurant location"
+msgstr ""
+
+#: templates/menu.html:6
+msgid "Pizza"
+msgstr ""
+
+#: templates/menu.html:19
+msgid "Add"
+msgstr ""
+
+#: templates/order.html:4
+msgid "Ordering"
+msgstr ""
+
+#: templates/order.html:9
+msgid "Name"
+msgstr ""
+
+#: templates/order.html:12
+msgid "Phone"
+msgstr ""
+
+#: templates/order.html:15
+msgid "Address"
+msgstr ""
+
+#: templates/order.html:16
+msgid "Please provide a valid address."
+msgstr ""
+
+#: templates/order.html:21
+msgid "Self-pick up"
+msgstr ""
+
+#: templates/order.html:23
+msgid "Order"
+msgstr ""
+
+#: templates/order.html:39
+msgid "TOTAL:"
+msgstr ""
+

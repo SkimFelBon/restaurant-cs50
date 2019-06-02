@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+<div class="wrapper-inner">
+    <p class="menuName">{{ _('Pizza') }}</p>
+    <ul class="flex-container">
+        {% for x in range(arrayName|length) %}
+        <li class="flex-item myborder">
+            <div class="myBox">
+                <span class="prdct-id">x</span>
+                <span>{{ arrayName[x] }}</span>
+                <img src="../{{ arrayImage[x] }}" class="img-fluid" alt="pizza image">
+                <div>
+                    <p class="tworows">{{ arrayIngrd[x] }}</p>
+                </div>
+                <div class="form-group">
+                    <span>{{ arrayPrice[x] }} {{ _('UAH') }}</span>
+                    <button class="btn btn-danger btn-buy" type="sumbit">{{ _('Add') }}</button>
+                </div>
+            </div>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+
+{% endblock %}

@@ -1,0 +1,31 @@
+{% extends "layout.html" %}
+
+{% block body %}
+  <style>
+      #map {
+          height: 400px;
+          width: 100%;
+          background-color: grey;
+      }
+  </style>
+  <body>
+    <div class="wrapper-inner">
+      <h3>{{ _('Our Restaurant location') }}</h3>
+      <!-- div element for the map -->
+      <div id="map"></div>
+      <script>
+          // initialize and add the map
+          function initMap() {
+              // Some location in Zdolbuniv
+              var zdolb = { lat: 50.522182, lng: 26.225816 };
+              // The map, centered at Zdolbuniv
+              var map = new google.maps.Map(
+                  document.getElementById('map'),{zoom: 10, center: zdolb});
+              var marker = new google.maps.Marker({position: zdolb, map: map});
+          }
+      </script>
+      <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC-TV7HsI8MaqUGDtb9cgAMM-eYQHi_NIs&callback=initMap"></script>
+    </div>
+  </body>
+
+{% endblock %}

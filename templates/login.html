@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html class="backImage">
+<head>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link href="../static/styles.css" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body class="backImage">
+<div class="bg">
+    {% with messages = get_flashed_messages(with_categories=true) %}
+      {% if messages %}
+        <header>
+          {% for category, message in messages %}
+            <div class="alert {{ category }} border text-center" role="alert">
+              {{message}}
+            </div>
+          {% endfor %}
+        </header>
+      {% endif %}
+    {% endwith %}
+    <div>
+        <div class="col-md-5 sidebar">
+            <div class="loginMargin">
+                <h4 class="yelltext">Technical Support </h5>
+                <h5 class="yelltext">Support@email.com</h6>
+                <br>
+                <form action="/login" method="post">
+                    <div class="form-group">
+                        <input autocomplete="off" autofocus class="form-control" name="username" placeholder="Username" type="text"/>
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" name="password" placeholder="Password" type="password"/>
+                    </div>
+                    <button class="btn btn-warning" type="submit">Log In</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

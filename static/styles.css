@@ -1,0 +1,407 @@
+.wrapper {
+  padding-top: 19px;
+  background-color: #db2032;
+}
+
+.nav-item {
+   text-align: center;
+}
+
+.dropdown-item {
+  text-align: center;
+}
+
+.navbar {
+  padding-left: 0px;
+}
+
+.navbarDropdown{
+  border: 0px;
+}
+
+.basketNumber {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.number-of-goods:before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-image:url(/static/images/basket.svg);
+}
+.gradient{
+background: #fff;
+    background-image: linear-gradient(rgb(195, 195, 195) 0%,
+     rgb(203, 203, 203) 4%,
+      rgb(214, 214, 214) 7%,
+       rgb(229, 229, 229) 13%,
+        rgb(236, 236, 236) 17%,
+         rgb(247, 247, 247) 25%,
+          rgb(255, 255, 255) 34%,
+           rgb(255, 255, 255) 100%);
+}
+
+.carousel-indicators li{
+  background-color: #000;
+}
+.carousel-indicators .active {
+  background-color: #000;
+}
+
+.flex-container {
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  border: 1px blank;
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.flex-item {
+  padding: 5px;
+  margin: 10px;
+  line-height: 50px;
+}
+/*max-width: 672px*/
+@media (max-width: 991px) {
+  .OrderMap {
+    z-index:3;
+    background: #EBE9E9;
+    color: black;
+    position: fixed;
+    width: 100%;
+    height:100%;
+    right: 0;
+    top: 0;
+    /*visibility: hidden;*/
+    /*min-height: 200px;*/
+  }
+
+  .thickBorder {
+    position: initial;
+  }
+}
+
+@media (min-width: 992px) {
+  #order {
+    color: black;
+  }
+
+  .OrderView {
+    cursor:pointer;
+  }
+
+  .OrderMap {
+    z-index:3;
+    background: #EBE9E9;
+    color: black;
+    position: fixed;
+    min-width: 50%;
+    min-height:30%;
+    right: 0;
+    top: 0;
+  }
+
+.spaceForButton {
+  height: 100px;
+}
+
+  .thickBorder{
+    position: absolute;
+    bottom: 0;
+  }
+}
+
+
+#basketHeader {
+  font-size: 25px;
+  font-family: sans-serif;
+  text-align: left;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+.close-btn {
+  border-width: 0;
+  border-radius: 0;
+  float: right;
+}
+
+.thickBorder{
+  border-width: 5px;
+  border-radius: 0;
+}
+
+.wrapper-inner {
+  background: white;
+}
+
+.myBox {
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+  width: 316px;
+}
+
+.tworows {
+  height: 48px;
+}
+
+h6 {
+  color: #333333;
+  font-family: 'Open Sans', sans-serif;
+  /*font-family: 'PT Sans', sans-serif;*/
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.305;
+}
+
+p {
+  color: #db2032;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: normal;
+  line-height: 1.5;
+  text-align: center;
+}
+
+img {
+  margin-bottom: -1px;
+}
+.carousel-indicators {
+  z-index: 2;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 0px;
+}
+
+.foo {
+  font-family: 'Open Sans', sans-serif;
+  list-style: none;
+  color: white;
+  text-align: center;
+}
+
+.foo:hover {
+    text-decoration: underline;
+}
+
+.carousel-control-next, .carousel-control-prev {
+  width: 5%;
+}
+
+
+.contacts {
+  margin-top: 20px;
+  font-family: 'Open Sans', sans-serif;
+  list-style: none;
+  color: white;
+  text-align: center;
+}
+
+.menuName {
+  color: #db2032;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: normal;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.backImage {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("images/pythonBackGround.jpg");
+
+  /* Full height */
+  height: 100%;
+  background-color: #111b2d52;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media (min-width: 0px) {
+  .col-md-5 {
+    background-color: #111b2dbf;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+  }
+}
+
+@media (min-width: 992px) {
+  .sidebar {
+      /*background-color: #111b2d52; */
+      background-color: #111b2dbf;
+      height: 100%;
+      width: 30%;
+      color: white;
+      position: fixed;
+  }
+}
+.loginMargin {
+  margin-top: 2em;
+  margin-left: .5em;
+  margin-right: .5em;
+}
+
+.yelltext {
+  color: #ffc107;
+}
+
+.myborder {
+  background-color: #ffe2a6;
+}
+
+.basket {
+   background: red;
+   height: 23px;
+   width: 23px;
+   border-radius: 20px;
+   color: #fccfff;
+   font-size: 16px;
+   /* font-style: italic; */
+   font-weight: normal;
+   /* line-height: 1.5; */
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+   /*background-image: url("images/pythonBackGround.jpg");*/
+ }
+
+/*.basket {
+  background-image: url("images/basket.svg");
+  width: 18px;
+  height: 19px;
+}*/
+
+.container {
+  padding: 0;
+  margin: auto;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column-reverse;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  -webkit-flex-flow: row wrap;
+}
+
+.leftSide {
+  min-width: 340px;
+  margin-top: 10px;
+  min-height: 300px;
+  padding: 5px;
+  text-align: center;
+  background-color: #7C7287;
+  border-radius: 4mm;
+  /*align-self: flex-end;*/
+}
+
+.rightSide {
+  min-width: 340px;
+  margin-top: 10px;
+  min-height: 300px;
+  padding: 5px;
+  text-align: center;
+  background-color: #343a40;
+  /*background-color: #482728;*/
+  border-radius: 4mm;
+}
+
+.prdct-id {
+  display: none;
+}
+
+.order-btn {
+  padding: 0.2rem 0.2rem;
+  font-size: 14px;
+}
+
+@media (max-width: 760px) {
+.aside-1 { order: 1; }
+.aside-2 { order: 2; }
+}
+
+.orderList {
+  list-style: none;
+  flex-wrap: wrap;
+  /*color: #B287A3;*/
+  color: white;
+}
+
+.header-order {
+  /*color: #B287A3;*/
+  color: white;
+  text-align: center;
+}
+
+.right-header {
+  color: white;
+  font-size: 20px;
+  /*font-size: 3vw;*/
+}
+#myForm {
+  margin-top: 50px;
+  width: 90%;
+  display: inline-block;
+}
+
+.cart-total {
+  text-align: end;
+  margin-top: 10px;
+  /*margin-right: 10px;*/
+  padding-right: 10px;
+  color: white;
+  border-top: 2px solid #c5281c;
+}
+
+.cart-total-red {
+  color: #c5281c;
+  border-top: 0;
+}
+
+.custom-control {
+  text-align: left;
+}
+
+.custom-control-labelX {
+  color: white;
+}
+
+#invalidInput {
+  color: white;
+}
+
+/*
+.formgroup {
+  display: inline-block;
+}
+*/
+

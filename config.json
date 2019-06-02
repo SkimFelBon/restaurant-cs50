@@ -1,0 +1,12 @@
+{
+    "myTrello":{
+        "TrelloToken": "bd989d6d2f05a2da2219474783e547799e27429c4487820b988afea46f9e2616",
+        "TrelloKey":"b1cac05c4a7a6050c69c7d7b484fbea8",
+        "idBoard": "5cd14a05fa93cd268c9e751f",
+        "idList": "5cd14a05b1497f81e1870259",
+        "idLabels":{
+            "Delivery": "5cd14a9f048ab96091a80869",
+            "Self_pickup":"5cd14abddf8b3d67af3f345e"
+        }
+    }
+}

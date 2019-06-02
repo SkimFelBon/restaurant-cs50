@@ -1,0 +1,20 @@
+{% extends 'admin/master.html' %}
+
+{% block body %}
+
+<div>
+    <header class="navbar">
+      <form action="/upload" method="post" enctype="multipart/form-data">
+          <span class="btn btn-warning btn-file">
+            Browse <input type="file" name="image">
+          </span>
+        <input type="submit" value="Upload your image" class="btn btn-primary">
+      </form>
+
+      <span class="navbar-text"> Prefered image size is: 777x666
+          <a href="/menu">view pizza menu</a>
+      </span>
+    </header>
+</div>
+
+{% endblock %}

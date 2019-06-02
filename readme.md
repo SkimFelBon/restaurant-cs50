@@ -3,13 +3,13 @@
 I tried to solve a real world problem that fits into the scope of a CS50 course.
 Flask based app that allows you to order a pizza and sends order information to Trello board.
 From the board, staff can further process and deliver orders to customers.
-```
+
 https://restaurant-cs50.herokuapp.com
-```
+
 ## Getting Started
 ```
 sudo pip install virtualenv
-git clone https://github.com/SkimFelBon/CS50_Final_Project
+git clone https://github.com/SkimFelBon/restaurant-cs50
 sudo pip install -r requirements.txt
 ```
 ### To run locally:
@@ -83,9 +83,9 @@ python manage.py db upgrade
 ```
 
 Great explanation how to install psql, and how to build app with flask+psql+heroku...
-```
+
 https://medium.com/@dushan14/create-a-web-application-with-python-flask-postgresql-and-deploy-on-heroku-243d548335cc
-```
+
 ## MIT License
 
 > Copyright (c) 2019 Leonid Kozak

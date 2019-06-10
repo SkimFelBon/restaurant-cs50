@@ -1,4 +1,5 @@
 # This is my final project for CS50 course.
+[![Open Source Society University - Computer Science](https://img.shields.io/badge/OSSU-computer--science-blue.svg)](https://github.com/open-source-society/computer-science)
 
 I tried to solve a real world problem that fits into the scope of a CS50 course.
 Flask based app that allows you to order a pizza and sends order information to Trello board.
